@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/diego/Desktop/Crazy Breakout/main.cpp" "C:/Users/diego/Desktop/Crazy Breakout/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/main.cpp.obj"
+  "/home/umi/Documents/Crazy_Breakout/Server.cpp" "/home/umi/Documents/Crazy_Breakout/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/Server.cpp.o"
+  "/home/umi/Documents/Crazy_Breakout/main.cpp" "/home/umi/Documents/Crazy_Breakout/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
