@@ -1,1 +1,1 @@
-/usr/bin/c++ -pthread -g CMakeFiles/Crazy_Breakout.dir/main.cpp.o CMakeFiles/Crazy_Breakout.dir/Server.cpp.o -o Crazy_Breakout 
+/usr/bin/c++ -pthread -g CMakeFiles/Crazy_Breakout.dir/main.cpp.o CMakeFiles/Crazy_Breakout.dir/Server.cpp.o CMakeFiles/Crazy_Breakout.dir/Cliente.cpp.o CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.o -o Crazy_Breakout 

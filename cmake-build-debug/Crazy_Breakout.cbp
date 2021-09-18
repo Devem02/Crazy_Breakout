@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/umi/Documents/Crazy_Breakout/Cliente.cpp">
+			<Option target="Crazy_Breakout"/>
+		</Unit>
+		<Unit filename="/home/umi/Documents/Crazy_Breakout/Cliente.h">
+			<Option target="Crazy_Breakout"/>
+		</Unit>
 		<Unit filename="/home/umi/Documents/Crazy_Breakout/Server.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
@@ -89,6 +95,9 @@
 			<Option target="Crazy_Breakout"/>
 		</Unit>
 		<Unit filename="/home/umi/Documents/Crazy_Breakout/main.cpp">
+			<Option target="Crazy_Breakout"/>
+		</Unit>
+		<Unit filename="/home/umi/Documents/Crazy_Breakout/mainCliente.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
 		<Unit filename="/home/umi/Documents/Crazy_Breakout/CMakeLists.txt">

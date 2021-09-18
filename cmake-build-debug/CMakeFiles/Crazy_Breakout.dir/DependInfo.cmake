@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/umi/Documents/Crazy_Breakout/Cliente.cpp" "/home/umi/Documents/Crazy_Breakout/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/Cliente.cpp.o"
   "/home/umi/Documents/Crazy_Breakout/Server.cpp" "/home/umi/Documents/Crazy_Breakout/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/Server.cpp.o"
   "/home/umi/Documents/Crazy_Breakout/main.cpp" "/home/umi/Documents/Crazy_Breakout/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/main.cpp.o"
+  "/home/umi/Documents/Crazy_Breakout/mainCliente.cpp" "/home/umi/Documents/Crazy_Breakout/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

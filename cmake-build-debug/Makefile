@@ -129,6 +129,30 @@ Crazy_Breakout/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crazy_Breakout.dir/build.make CMakeFiles/Crazy_Breakout.dir/build
 .PHONY : Crazy_Breakout/fast
 
+Cliente.o: Cliente.cpp.o
+.PHONY : Cliente.o
+
+# target to build an object file
+Cliente.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crazy_Breakout.dir/build.make CMakeFiles/Crazy_Breakout.dir/Cliente.cpp.o
+.PHONY : Cliente.cpp.o
+
+Cliente.i: Cliente.cpp.i
+.PHONY : Cliente.i
+
+# target to preprocess a source file
+Cliente.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crazy_Breakout.dir/build.make CMakeFiles/Crazy_Breakout.dir/Cliente.cpp.i
+.PHONY : Cliente.cpp.i
+
+Cliente.s: Cliente.cpp.s
+.PHONY : Cliente.s
+
+# target to generate assembly for a file
+Cliente.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crazy_Breakout.dir/build.make CMakeFiles/Crazy_Breakout.dir/Cliente.cpp.s
+.PHONY : Cliente.cpp.s
+
 Server.o: Server.cpp.o
 .PHONY : Server.o
 
@@ -177,6 +201,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crazy_Breakout.dir/build.make CMakeFiles/Crazy_Breakout.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainCliente.o: mainCliente.cpp.o
+.PHONY : mainCliente.o
+
+# target to build an object file
+mainCliente.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crazy_Breakout.dir/build.make CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.o
+.PHONY : mainCliente.cpp.o
+
+mainCliente.i: mainCliente.cpp.i
+.PHONY : mainCliente.i
+
+# target to preprocess a source file
+mainCliente.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crazy_Breakout.dir/build.make CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.i
+.PHONY : mainCliente.cpp.i
+
+mainCliente.s: mainCliente.cpp.s
+.PHONY : mainCliente.s
+
+# target to generate assembly for a file
+mainCliente.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Crazy_Breakout.dir/build.make CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.s
+.PHONY : mainCliente.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Crazy_Breakout"
+	@echo "... Cliente.o"
+	@echo "... Cliente.i"
+	@echo "... Cliente.s"
 	@echo "... Server.o"
 	@echo "... Server.i"
 	@echo "... Server.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mainCliente.o"
+	@echo "... mainCliente.i"
+	@echo "... mainCliente.s"
 .PHONY : help
 
 

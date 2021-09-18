@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Crazy_Breakout.dir/Cliente.cpp.o"
   "CMakeFiles/Crazy_Breakout.dir/Server.cpp.o"
   "CMakeFiles/Crazy_Breakout.dir/main.cpp.o"
+  "CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.o"
   "Crazy_Breakout"
   "Crazy_Breakout.pdb"
 )
