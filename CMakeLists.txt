@@ -3,4 +3,11 @@ project(Crazy_Breakout)
 
 set(CMAKE_CXX_STANDARD 14)
 SET(CMAKE_CXX_FLAGS -pthread)
-add_executable(Crazy_Breakout main.cpp Server.cpp Server.h Cliente.cpp Cliente.h mainCliente.cpp)
+
+find_package(SFML COMPONENTS system window graphics)
+
+add_executable(Crazy_Breakout main.cpp Server.cpp Server.h Cliente.cpp Cliente.h mainCliente.cpp screen.cpp screen.h)
+
+
+TARGET_LINK_LIBRARIES(Crazy_Breakout sfml-system sfml-window sfml graphics)
+
