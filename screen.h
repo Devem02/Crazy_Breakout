@@ -5,6 +5,7 @@
 #ifndef CRAZY_BREAKOUT_SCREEN_H
 #define CRAZY_BREAKOUT_SCREEN_H
 
+<<<<<<< HEAD
 #include <SFML/Graphics.hpp>
 
 
@@ -16,6 +17,11 @@ public:
 
 private:
     RenderWindow * window1;
+=======
+
+class screen {
+
+>>>>>>> master
 };
 
 
