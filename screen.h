@@ -5,7 +5,6 @@
 #ifndef CRAZY_BREAKOUT_SCREEN_H
 #define CRAZY_BREAKOUT_SCREEN_H
 
-<<<<<<< HEAD
 #include <SFML/Graphics.hpp>
 
 
@@ -14,14 +13,13 @@ class screen {
 
 public:
     screen(int resolutionX, int resolutionY, std::string tittle);
-
+    void draw();
+    void loop();
 private:
     RenderWindow * window1;
-=======
+    int fps;
+    RectangleShape * p1;
 
-class screen {
-
->>>>>>> master
 };
 
 

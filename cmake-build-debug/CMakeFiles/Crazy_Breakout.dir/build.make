@@ -152,6 +152,7 @@ Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/Cliente.cpp.obj
 Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.obj
 Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/screen.cpp.obj
 Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/build.make
+Crazy_Breakout.exe: C:/CLION/mingw32/lib/libsfml-graphics-d.a
 Crazy_Breakout.exe: C:/CLION/mingw32/lib/libsfml-window-d.a
 Crazy_Breakout.exe: C:/CLION/mingw32/lib/libsfml-system-d.a
 Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/linklibs.rsp
