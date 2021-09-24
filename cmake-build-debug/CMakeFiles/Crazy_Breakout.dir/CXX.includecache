@@ -676,16 +676,8 @@ SFML/Config.hpp
 
 C:/CLION/mingw32/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/diego/Desktop/Cpp/Cliente.cpp
-Cliente.h
-C:/Users/diego/Desktop/Cpp/Cliente.h
-
-C:/Users/diego/Desktop/Cpp/Cliente.h
-sys/socket.h
--
+C:/Users/diego/Desktop/Cpp/Server.h
 sys/types.h
--
-netdb.h
 -
 string.h
 -
@@ -699,12 +691,12 @@ vector
 -
 unistd.h
 -
-arpa/inet.h
--
 
-C:/Users/diego/Desktop/Cpp/mainCliente.cpp
-Cliente.h
-C:/Users/diego/Desktop/Cpp/Cliente.h
+C:/Users/diego/Desktop/Cpp/main.cpp
+Server.h
+C:/Users/diego/Desktop/Cpp/Server.h
+screen.h
+C:/Users/diego/Desktop/Cpp/screen.h
 
 C:/Users/diego/Desktop/Cpp/screen.cpp
 screen.h

@@ -5,7 +5,6 @@
 #ifndef CRAZY_BREAKOUT_SCREEN_H
 #define CRAZY_BREAKOUT_SCREEN_H
 
-<<<<<<< HEAD
 #include <SFML/Graphics.hpp>
 
 
@@ -16,12 +15,10 @@ public:
     screen(int resolutionX, int resolutionY, std::string tittle);
 
 private:
-    RenderWindow * window1;
-=======
+    RenderWindow* window1;
+    int fps;
+    Event ev;
 
-class screen {
-
->>>>>>> master
 };
 
 

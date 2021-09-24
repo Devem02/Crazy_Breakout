@@ -7,7 +7,7 @@
 Server::Server() {}
 
 bool Server::crear_socket() {
-    descriptor = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+    //descriptor = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     if(descriptor < 0)
         return false;
 
@@ -77,6 +77,6 @@ void * Server::ControladorCliente(void *obj) {
 
 void Server::setMensaje(const char *msn) {
     for(int i = 0; i < clientes.size(); i++){
-        send(clientes[i], msn, strlen(msn), 0);
+       send(clientes[i], msn, strlen(msn), 0);
     }
 }

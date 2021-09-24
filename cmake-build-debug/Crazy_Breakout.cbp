@@ -88,6 +88,24 @@
 		<Unit filename="C:/Users/diego/Desktop/Cpp/Cliente.h">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/gameBall.cpp">
+			<Option target="Crazy_Breakout"/>
+		</Unit>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/gameBall.h">
+			<Option target="Crazy_Breakout"/>
+		</Unit>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/gameBar.cpp">
+			<Option target="Crazy_Breakout"/>
+		</Unit>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/gameBar.h">
+			<Option target="Crazy_Breakout"/>
+		</Unit>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/screen.cpp">
+			<Option target="Crazy_Breakout"/>
+		</Unit>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/screen.h">
+			<Option target="Crazy_Breakout"/>
+		</Unit>
 		<Unit filename="C:/Users/diego/Desktop/Cpp/Server.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
@@ -98,12 +116,6 @@
 			<Option target="Crazy_Breakout"/>
 		</Unit>
 		<Unit filename="C:/Users/diego/Desktop/Cpp/mainCliente.cpp">
-			<Option target="Crazy_Breakout"/>
-		</Unit>
-		<Unit filename="C:/Users/diego/Desktop/Cpp/screen.cpp">
-			<Option target="Crazy_Breakout"/>
-		</Unit>
-		<Unit filename="C:/Users/diego/Desktop/Cpp/screen.h">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
 		<Unit filename="C:/Users/diego/Desktop/Cpp/CMakeLists.txt">

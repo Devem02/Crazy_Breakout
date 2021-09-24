@@ -38,7 +38,7 @@ void * Cliente::Controlador(void *obj) {
                 close(c->descriptor);
                 pthread_exit(NULL);
             }
-            if(bytes < 1024){
+           if(bytes < 1024){
                 break;
             }
         }

@@ -1,5 +1,5 @@
 #include "Server.h"
-#include "screen.h"
+#include "InGame//screen.h"
 
 Server* server;
 void * serverRun(void *){
@@ -28,3 +28,14 @@ int main() {
     delete server;
     return 0;
 }
+//int main(){
+
+
+
+  //  screen * w1;
+    //w1 = new screen(800, 600, "Crazy Breakout");
+
+
+    //return 0;
+
+//}
