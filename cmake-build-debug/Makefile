@@ -152,6 +152,78 @@ Cliente.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/Cliente.cpp.s
 .PHONY : Cliente.cpp.s
 
+InGame/gameBall.obj: InGame/gameBall.cpp.obj
+.PHONY : InGame/gameBall.obj
+
+# target to build an object file
+InGame/gameBall.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.obj
+.PHONY : InGame/gameBall.cpp.obj
+
+InGame/gameBall.i: InGame/gameBall.cpp.i
+.PHONY : InGame/gameBall.i
+
+# target to preprocess a source file
+InGame/gameBall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.i
+.PHONY : InGame/gameBall.cpp.i
+
+InGame/gameBall.s: InGame/gameBall.cpp.s
+.PHONY : InGame/gameBall.s
+
+# target to generate assembly for a file
+InGame/gameBall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.s
+.PHONY : InGame/gameBall.cpp.s
+
+InGame/gameBar.obj: InGame/gameBar.cpp.obj
+.PHONY : InGame/gameBar.obj
+
+# target to build an object file
+InGame/gameBar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.obj
+.PHONY : InGame/gameBar.cpp.obj
+
+InGame/gameBar.i: InGame/gameBar.cpp.i
+.PHONY : InGame/gameBar.i
+
+# target to preprocess a source file
+InGame/gameBar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.i
+.PHONY : InGame/gameBar.cpp.i
+
+InGame/gameBar.s: InGame/gameBar.cpp.s
+.PHONY : InGame/gameBar.s
+
+# target to generate assembly for a file
+InGame/gameBar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.s
+.PHONY : InGame/gameBar.cpp.s
+
+InGame/screen.obj: InGame/screen.cpp.obj
+.PHONY : InGame/screen.obj
+
+# target to build an object file
+InGame/screen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.obj
+.PHONY : InGame/screen.cpp.obj
+
+InGame/screen.i: InGame/screen.cpp.i
+.PHONY : InGame/screen.i
+
+# target to preprocess a source file
+InGame/screen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.i
+.PHONY : InGame/screen.cpp.i
+
+InGame/screen.s: InGame/screen.cpp.s
+.PHONY : InGame/screen.s
+
+# target to generate assembly for a file
+InGame/screen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.s
+.PHONY : InGame/screen.cpp.s
+
 Server.obj: Server.cpp.obj
 .PHONY : Server.obj
 
@@ -224,30 +296,6 @@ mainCliente.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.s
 .PHONY : mainCliente.cpp.s
 
-screen.obj: screen.cpp.obj
-.PHONY : screen.obj
-
-# target to build an object file
-screen.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/screen.cpp.obj
-.PHONY : screen.cpp.obj
-
-screen.i: screen.cpp.i
-.PHONY : screen.i
-
-# target to preprocess a source file
-screen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/screen.cpp.i
-.PHONY : screen.cpp.i
-
-screen.s: screen.cpp.s
-.PHONY : screen.s
-
-# target to generate assembly for a file
-screen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Crazy_Breakout.dir\build.make CMakeFiles/Crazy_Breakout.dir/screen.cpp.s
-.PHONY : screen.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -260,6 +308,15 @@ help:
 	@echo ... Cliente.obj
 	@echo ... Cliente.i
 	@echo ... Cliente.s
+	@echo ... InGame/gameBall.obj
+	@echo ... InGame/gameBall.i
+	@echo ... InGame/gameBall.s
+	@echo ... InGame/gameBar.obj
+	@echo ... InGame/gameBar.i
+	@echo ... InGame/gameBar.s
+	@echo ... InGame/screen.obj
+	@echo ... InGame/screen.i
+	@echo ... InGame/screen.s
 	@echo ... Server.obj
 	@echo ... Server.i
 	@echo ... Server.s
@@ -269,9 +326,6 @@ help:
 	@echo ... mainCliente.obj
 	@echo ... mainCliente.i
 	@echo ... mainCliente.s
-	@echo ... screen.obj
-	@echo ... screen.i
-	@echo ... screen.s
 .PHONY : help
 
 

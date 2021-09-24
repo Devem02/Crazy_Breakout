@@ -11,18 +11,18 @@ bool Server::crear_socket() {
     if(descriptor < 0)
         return false;
 
-    //info.sin_family = AF_INET;
-    //info.sin_addr.s_addr = INADDR_ANY;
-    //info.sin_port = htons(4050);
-    //memset(&info.sin_zero, 0, sizeof(info.sin_zero));
+    info.sin_family = AF_INET;
+    info.sin_addr.s_addr = INADDR_ANY;
+    info.sin_port = htons(4050);
+    memset(&info.sin_zero, 0, sizeof(info.sin_zero));
     return true;
 }
 
 bool Server::enlazar_kernel() {
-    //if((bind(descriptor, (sockaddr *)&info, (socklen_t)sizeof(info))) < 0)
+    if((bind(descriptor, (sockaddr *)&info, (socklen_t)sizeof(info))) < 0)
     return false;
 
-    //listen(descriptor, 4);
+    listen(descriptor, 4);
     return true;
 }
 
@@ -34,9 +34,9 @@ void Server::run() {
 
     while(true){
         dataSocket data;
-        //socklen_t t = sizeof(data.info);
+        socklen_t t = sizeof(data.info);
         cout << "Esperando a que se conecte un cliente" << endl;
-        //data.descriptor = accept(descriptor, (sockaddr *)&data.info, &t);
+        data.descriptor = accept(descriptor, (sockaddr *)&data.info, &t);
         if(data.descriptor < 0){
             cout << "Error al aceptar el cliente" << endl;
             break;
@@ -59,24 +59,24 @@ void * Server::ControladorCliente(void *obj) {
         char buffer[1024] = {0};
         while(1){
             memset(buffer, 0, 1024);
-            //int bytes = recv(data->descriptor, buffer, 1024, 0);
-            //mensaje.append(buffer, bytes);
-            //if(bytes <= 0){
+            int bytes = recv(data->descriptor, buffer, 1024, 0);
+            mensaje.append(buffer, bytes);
+            if(bytes <= 0){
                 close(data->descriptor);
                 pthread_exit(NULL);
             }
-            //if(bytes < 1024){
+            if(bytes < 1024){
                 break;
             }
         }
-        //cout << mensaje << endl;
-    //}
-    //close(data->descriptor);
-    //pthread_exit(NULL);
-//}
+        cout << mensaje << endl;
+    }
+    close(data->descriptor);
+    pthread_exit(NULL);
+}
 
 void Server::setMensaje(const char *msn) {
     for(int i = 0; i < clientes.size(); i++){
-       // send(clientes[i], msn, strlen(msn), 0);
+       send(clientes[i], msn, strlen(msn), 0);
     }
 }

@@ -121,19 +121,47 @@ CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.s"
 	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\diego\Desktop\Cpp\mainCliente.cpp -o CMakeFiles\Crazy_Breakout.dir\mainCliente.cpp.s
 
-CMakeFiles/Crazy_Breakout.dir/screen.cpp.obj: CMakeFiles/Crazy_Breakout.dir/flags.make
-CMakeFiles/Crazy_Breakout.dir/screen.cpp.obj: CMakeFiles/Crazy_Breakout.dir/includes_CXX.rsp
-CMakeFiles/Crazy_Breakout.dir/screen.cpp.obj: ../screen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\diego\Desktop\Cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Crazy_Breakout.dir/screen.cpp.obj"
-	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Crazy_Breakout.dir\screen.cpp.obj -c C:\Users\diego\Desktop\Cpp\screen.cpp
+CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.obj: CMakeFiles/Crazy_Breakout.dir/flags.make
+CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.obj: CMakeFiles/Crazy_Breakout.dir/includes_CXX.rsp
+CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.obj: ../InGame/screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\diego\Desktop\Cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.obj"
+	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Crazy_Breakout.dir\InGame\screen.cpp.obj -c C:\Users\diego\Desktop\Cpp\InGame\screen.cpp
 
-CMakeFiles/Crazy_Breakout.dir/screen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Crazy_Breakout.dir/screen.cpp.i"
-	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\diego\Desktop\Cpp\screen.cpp > CMakeFiles\Crazy_Breakout.dir\screen.cpp.i
+CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.i"
+	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\diego\Desktop\Cpp\InGame\screen.cpp > CMakeFiles\Crazy_Breakout.dir\InGame\screen.cpp.i
 
-CMakeFiles/Crazy_Breakout.dir/screen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crazy_Breakout.dir/screen.cpp.s"
-	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\diego\Desktop\Cpp\screen.cpp -o CMakeFiles\Crazy_Breakout.dir\screen.cpp.s
+CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.s"
+	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\diego\Desktop\Cpp\InGame\screen.cpp -o CMakeFiles\Crazy_Breakout.dir\InGame\screen.cpp.s
+
+CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.obj: CMakeFiles/Crazy_Breakout.dir/flags.make
+CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.obj: CMakeFiles/Crazy_Breakout.dir/includes_CXX.rsp
+CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.obj: ../InGame/gameBar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\diego\Desktop\Cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.obj"
+	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Crazy_Breakout.dir\InGame\gameBar.cpp.obj -c C:\Users\diego\Desktop\Cpp\InGame\gameBar.cpp
+
+CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.i"
+	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\diego\Desktop\Cpp\InGame\gameBar.cpp > CMakeFiles\Crazy_Breakout.dir\InGame\gameBar.cpp.i
+
+CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.s"
+	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\diego\Desktop\Cpp\InGame\gameBar.cpp -o CMakeFiles\Crazy_Breakout.dir\InGame\gameBar.cpp.s
+
+CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.obj: CMakeFiles/Crazy_Breakout.dir/flags.make
+CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.obj: CMakeFiles/Crazy_Breakout.dir/includes_CXX.rsp
+CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.obj: ../InGame/gameBall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\diego\Desktop\Cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.obj"
+	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Crazy_Breakout.dir\InGame\gameBall.cpp.obj -c C:\Users\diego\Desktop\Cpp\InGame\gameBall.cpp
+
+CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.i"
+	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\diego\Desktop\Cpp\InGame\gameBall.cpp > CMakeFiles\Crazy_Breakout.dir\InGame\gameBall.cpp.i
+
+CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.s"
+	C:\CLION\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\diego\Desktop\Cpp\InGame\gameBall.cpp -o CMakeFiles\Crazy_Breakout.dir\InGame\gameBall.cpp.s
 
 # Object files for target Crazy_Breakout
 Crazy_Breakout_OBJECTS = \
@@ -141,7 +169,9 @@ Crazy_Breakout_OBJECTS = \
 "CMakeFiles/Crazy_Breakout.dir/Server.cpp.obj" \
 "CMakeFiles/Crazy_Breakout.dir/Cliente.cpp.obj" \
 "CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.obj" \
-"CMakeFiles/Crazy_Breakout.dir/screen.cpp.obj"
+"CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.obj" \
+"CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.obj" \
+"CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.obj"
 
 # External object files for target Crazy_Breakout
 Crazy_Breakout_EXTERNAL_OBJECTS =
@@ -150,7 +180,9 @@ Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/main.cpp.obj
 Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/Server.cpp.obj
 Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/Cliente.cpp.obj
 Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.obj
-Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/screen.cpp.obj
+Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.obj
+Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.obj
+Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.obj
 Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/build.make
 Crazy_Breakout.exe: C:/CLION/mingw32/lib/libsfml-graphics-d.a
 Crazy_Breakout.exe: C:/CLION/mingw32/lib/libsfml-window-d.a
@@ -158,7 +190,7 @@ Crazy_Breakout.exe: C:/CLION/mingw32/lib/libsfml-system-d.a
 Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/linklibs.rsp
 Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/objects1.rsp
 Crazy_Breakout.exe: CMakeFiles/Crazy_Breakout.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\diego\Desktop\Cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Crazy_Breakout.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\diego\Desktop\Cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Crazy_Breakout.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Crazy_Breakout.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

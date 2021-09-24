@@ -5,9 +5,9 @@
 #ifndef CRAZY_BREAKOUT_SERVER_H
 #define CRAZY_BREAKOUT_SERVER_H
 
-//#include <sys/socket.h>
+#include <sys/socket.h>
 #include <sys/types.h>
-//#include <netdb.h>
+#include <netdb.h>
 #include <string.h>
 #include <string>
 #include <iostream>
@@ -18,7 +18,7 @@ using namespace std;
 
 struct dataSocket{
     int descriptor;
-    //sockaddr_in info;
+    sockaddr_in info;
 };
 class Server{
 public:
@@ -27,7 +27,7 @@ public:
     void setMensaje(const char* msn);
 private:
     int descriptor;
-    //sockaddr_in info;
+    sockaddr_in info;
     vector<int> clientes;
 
     bool crear_socket();

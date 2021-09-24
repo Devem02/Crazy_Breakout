@@ -676,6 +676,28 @@ SFML/Config.hpp
 
 C:/CLION/mingw32/include/SFML/Window/WindowStyle.hpp
 
+C:/Users/diego/Desktop/Cpp/Server.h
+sys/types.h
+-
+string.h
+-
+string
+-
+iostream
+-
+pthread.h
+-
+vector
+-
+unistd.h
+-
+
+C:/Users/diego/Desktop/Cpp/main.cpp
+Server.h
+C:/Users/diego/Desktop/Cpp/Server.h
+screen.h
+C:/Users/diego/Desktop/Cpp/screen.h
+
 C:/Users/diego/Desktop/Cpp/screen.cpp
 screen.h
 C:/Users/diego/Desktop/Cpp/screen.h

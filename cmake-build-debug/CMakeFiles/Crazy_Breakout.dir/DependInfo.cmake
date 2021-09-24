@@ -9,10 +9,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/diego/Desktop/Cpp/Cliente.cpp" "C:/Users/diego/Desktop/Cpp/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/Cliente.cpp.obj"
+  "C:/Users/diego/Desktop/Cpp/InGame/gameBall.cpp" "C:/Users/diego/Desktop/Cpp/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/InGame/gameBall.cpp.obj"
+  "C:/Users/diego/Desktop/Cpp/InGame/gameBar.cpp" "C:/Users/diego/Desktop/Cpp/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/InGame/gameBar.cpp.obj"
+  "C:/Users/diego/Desktop/Cpp/InGame/screen.cpp" "C:/Users/diego/Desktop/Cpp/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/InGame/screen.cpp.obj"
   "C:/Users/diego/Desktop/Cpp/Server.cpp" "C:/Users/diego/Desktop/Cpp/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/Server.cpp.obj"
   "C:/Users/diego/Desktop/Cpp/main.cpp" "C:/Users/diego/Desktop/Cpp/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/main.cpp.obj"
   "C:/Users/diego/Desktop/Cpp/mainCliente.cpp" "C:/Users/diego/Desktop/Cpp/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/mainCliente.cpp.obj"
-  "C:/Users/diego/Desktop/Cpp/screen.cpp" "C:/Users/diego/Desktop/Cpp/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir/screen.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

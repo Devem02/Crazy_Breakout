@@ -6,7 +6,7 @@ SET(CMAKE_CXX_FLAGS -pthread)
 
 find_package(SFML COMPONENTS system window graphics)
 
-add_executable(Crazy_Breakout main.cpp Server.cpp Server.h Cliente.cpp Cliente.h mainCliente.cpp screen.cpp screen.h)
+add_executable(Crazy_Breakout main.cpp Server.cpp Server.h Cliente.cpp Cliente.h mainCliente.cpp InGame/screen.cpp InGame/screen.h InGame/gameBar.cpp InGame/gameBar.h InGame/gameBall.cpp InGame/gameBall.h)
 
 
 TARGET_LINK_LIBRARIES(Crazy_Breakout sfml-system sfml-window sfml-graphics)

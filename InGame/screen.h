@@ -13,12 +13,11 @@ class screen {
 
 public:
     screen(int resolutionX, int resolutionY, std::string tittle);
-    void draw();
-    void loop();
+
 private:
-    RenderWindow * window1;
+    RenderWindow* window1;
     int fps;
-    RectangleShape * p1;
+    Event ev;
 
 };
 
