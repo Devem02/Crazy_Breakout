@@ -1,3 +1,3 @@
-C:/Users/diego/Desktop/Cpp/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir
-C:/Users/diego/Desktop/Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/diego/Desktop/Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/umi/Documents/Crazy_Breakout/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/umi/Documents/Crazy_Breakout/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/umi/Documents/Crazy_Breakout/cmake-build-debug/CMakeFiles/Crazy_Breakout.dir
