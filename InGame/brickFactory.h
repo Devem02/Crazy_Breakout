@@ -16,5 +16,8 @@ public:
     static Brick * tripleBrick(int posX, int posY);
     static Brick * internalBrick(int posX, int posY);
     static Brick * deepBrick(int posX, int posY);
-    static Brick * surpriseBrick(int posX, int posY);
+    static Brick * specialBrick(int posX, int posY);
+
+private:
+    static void drawBlock(Brick* brick,sf::Color base, sf::Color board );
 };

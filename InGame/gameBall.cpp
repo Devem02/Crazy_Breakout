@@ -12,7 +12,8 @@
     Pball.setFillColor(Color::White);
 
     this->speed = speed;
-    move = false;
+    gameBall::move = false;
+    deepValue = 0;
     upper = true;
     Right = true;
 }
@@ -62,4 +63,16 @@ void gameBall::init(bool start) {
 
 CircleShape gameBall::ball(){
     return Pball;
+}
+void gameBall::direction() {
+    if (upper){
+        upper = false;
+
+    }
+    else{
+        upper = true;
+    }
+}
+void gameBall::getDeep() {
+    deepValue ++;
 }

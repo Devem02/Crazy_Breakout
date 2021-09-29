@@ -5,148 +5,151 @@
 		<Option title="Crazy_Breakout"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\CLION\;CMake Files\..\..\..\..\CLION\mingw32\;CMake Files\..\..\..\..\CLION\mingw32\lib\;CMake Files\..\..\..\..\CLION\mingw32\lib\cmake\;CMake Files\..\..\..\..\CLION\mingw32\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/umi/Documents/Crazy_Breakout/cmake-build-debug"/>
+				<Option working_dir="C:/Users/diego/Desktop/Cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/umi/Documents/Crazy_Breakout/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/umi/Documents/Crazy_Breakout/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Crazy_Breakout">
-				<Option output="/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Crazy_Breakout" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/umi/Documents/Crazy_Breakout/cmake-build-debug"/>
+				<Option output="C:/Users/diego/Desktop/Cpp/cmake-build-debug/Crazy_Breakout.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/diego/Desktop/Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/CLION/mingw32/include"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 Crazy_Breakout"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Crazy_Breakout"/>
+					<CompileFile command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Crazy_Breakout/fast">
-				<Option output="/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Crazy_Breakout" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/umi/Documents/Crazy_Breakout/cmake-build-debug"/>
+				<Option output="C:/Users/diego/Desktop/Cpp/cmake-build-debug/Crazy_Breakout.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/diego/Desktop/Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/CLION/mingw32/include"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/CLION/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 Crazy_Breakout/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/umi/Documents/Crazy_Breakout/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Crazy_Breakout/fast"/>
+					<CompileFile command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/diego/Desktop/Cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/diego/Desktop/Cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CLION/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/diego/Desktop/Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/Cliente.cpp">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/Cliente.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/Cliente.h">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/Cliente.h">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/InGame/brick.cpp">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/brick.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/InGame/brick.h">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/brick.h">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/InGame/brickFactory.cpp">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/brickFactory.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/InGame/brickFactory.h">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/brickFactory.h">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/InGame/gameBall.cpp">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/gameBall.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/InGame/gameBall.h">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/gameBall.h">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/InGame/gameBar.cpp">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/gameBar.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/InGame/gameBar.h">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/gameBar.h">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/InGame/screen.cpp">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/screen.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/InGame/screen.h">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/InGame/screen.h">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/Server.cpp">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/Server.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/Server.h">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/Server.h">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/main.cpp">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/main.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/mainCliente.cpp">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/mainCliente.cpp">
 			<Option target="Crazy_Breakout"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/CMakeLists.txt">
+		<Unit filename="C:/Users/diego/Desktop/Cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/../../../../CLION/mingw32/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\CLION\mingw32\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/../../../../CLION/mingw32/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\CLION\mingw32\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/../../../../CLION/mingw32/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\CLION\mingw32\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets-none.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/../../../../CLION/mingw32/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\CLION\mingw32\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/home/umi/Documents/Crazy_Breakout/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/../../../../CLION/mingw32/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\CLION\mingw32\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/diego/Desktop/Cpp/../../../../CLION/mingw32/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\CLION\mingw32\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -6,8 +6,9 @@
 #define CRAZY_BREAKOUT_BRICK_H
 
 #endif //CRAZY_BREAKOUT_BRICK_H
+#include <SFML/Graphics.hpp>
 
-using namespace std;
+using namespace sf;
 
 class Brick {
 private:
@@ -29,4 +30,5 @@ public:
     bool getDeep() const;
     bool getSurprise() const;
     void destroyed();
+    RectangleShape brick;
 };

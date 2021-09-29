@@ -19,6 +19,10 @@ public:
     CircleShape ball();
     void init(bool start);
     void reset(float x, float y);
+    int deepValue;
+    void getDeep();
+    void direction();
+    void up();
 
 private:
     CircleShape Pball;
