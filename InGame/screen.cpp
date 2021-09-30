@@ -126,7 +126,7 @@ void screen::updateBall() {
 }
 void screen::updateBrick() {
     for (Brick* b : brick) {
-        if (this->ball->ball().getGlobalBounds().intersects(b->brick.getGlobalBounds())) {
+        if (this->ball->ball().getGlobalBounds().intersects(b->brickShape.getGlobalBounds())) {
             if (b->getDeep()) {
                 ball->deepValue++;
                 ball->init(false);
@@ -139,8 +139,8 @@ void screen::updateBrick() {
                     if (b->getInternal() && ball->deepValue > 0) {
                         ball->deepValue==0;
                         updatePoints(b->getPoints());
-                        b->brick.setFillColor(Color::Transparent);
-                        b->brick.setOutlineColor(Color::Transparent);
+                        b->brickShape.setFillColor(Color::Transparent);
+                        b->brickShape.setOutlineColor(Color::Transparent);
                         ball->init(false);
                     }
                     else {
@@ -148,8 +148,8 @@ void screen::updateBrick() {
                         if (b->getHp() < 0) {
                             b->destroyed();
                             updatePoints(b->getPoints());
-                            b->brick.setFillColor(Color::Transparent);
-                            b->brick.setOutlineColor(Color::Transparent);
+                            b->brickShape.setFillColor(Color::Transparent);
+                            b->brickShape.setOutlineColor(Color::Transparent);
                         }
                         ball->init(false);
                     }
@@ -179,7 +179,7 @@ void screen::generate() {
     window1 -> clear(Color::Black);
 
     for (Brick* brick : brick){
-        window1->draw(brick->brick);
+        window1->draw(brick->brickShape);
     }
     if(gameOver){
         window1->draw(gameover);

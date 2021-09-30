@@ -31,5 +31,5 @@ public:
     void destroyed();
     void hit();
     bool alive;
-    RectangleShape brick;
+    RectangleShape brickShape;
 };
