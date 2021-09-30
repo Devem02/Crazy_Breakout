@@ -23,13 +23,13 @@ public:
     void getDeep();
     void direction();
     void up();
+    float speed;
 
 private:
     CircleShape Pball;
     bool move;
     bool upper;
     bool Right;
-    float speed;
 };
 
 

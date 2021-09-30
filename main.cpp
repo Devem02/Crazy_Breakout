@@ -12,6 +12,21 @@ void * serverRun(void *){
 }
 
 int main() {
+
+    //screen* game = new screen();
+
+    //while(game->isRunning()){
+      //  game->update();
+    //    game->generate();
+  //  }
+//    delete game;
+
+
+
+
+
+
+
     server = new Server;
     pthread_t hiloServer;
     pthread_create(&hiloServer, 0, serverRun, NULL);
@@ -28,14 +43,5 @@ int main() {
     delete server;
     return 0;
 }
-//int main(){
 
 
-
-  //  screen * w1;
-    //w1 = new screen(800, 600, "Crazy Breakout");
-
-
-    //return 0;
-
-//}

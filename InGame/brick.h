@@ -19,7 +19,6 @@ private:
     bool internal;
     bool deep;
     bool surprise;
-    bool alive;
 public:
     Brick(int PosX, int PosY, int Points, int hp, bool internal, bool deep, bool surprise);
     int getPosX() const;
@@ -30,5 +29,7 @@ public:
     bool getDeep() const;
     bool getSurprise() const;
     void destroyed();
+    void hit();
+    bool alive;
     RectangleShape brick;
 };

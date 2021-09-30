@@ -9,6 +9,7 @@
 #include <SFML/Window.hpp>
 #include <iostream>
 #include <random>
+#include <vector>
 #include "brickFactory.h"
 #include "gameBar.h"
 #include "gameBall.h"
@@ -28,6 +29,7 @@ public:
     void updateK();
     void updateBall();
     void updateBrick();
+    void getLives();
     void updatePoints(int points);
     void update();
     void generate();
@@ -45,8 +47,9 @@ private:
     int currentBalls;
     int currentPoints;
     int lives;
-    Text message;
-    Text points;
+    Text gamePoints;
+    Text gameover;
+    Text deep;
     void startPoints();
     void createBricks();
 };

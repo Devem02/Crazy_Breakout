@@ -46,3 +46,6 @@ bool Brick::getSurprise() const {
 void Brick::destroyed() {
     this->alive = false;
 }
+void Brick::hit() {
+    this->hp --;
+}
