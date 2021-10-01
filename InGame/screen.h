@@ -1,6 +1,9 @@
-//
-// Created by Diego on 20/09/2021.
-//
+/**
+* @file screen.h
+* @version 1.0
+* @date 28/09/2021
+* @title Interfaz del juego
+*/
 
 #ifndef CRAZY_BREAKOUT_SCREEN_H
 #define CRAZY_BREAKOUT_SCREEN_H

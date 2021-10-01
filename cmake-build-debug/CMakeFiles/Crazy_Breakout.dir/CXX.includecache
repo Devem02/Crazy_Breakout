@@ -6,25 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/umi/Documents/Crazy_Breakout/InGame/brick.cpp
-brick.h
-/home/umi/Documents/Crazy_Breakout/InGame/brick.h
-
 /home/umi/Documents/Crazy_Breakout/InGame/brick.h
 SFML/Graphics.hpp
 -
 
-/home/umi/Documents/Crazy_Breakout/InGame/brickFactory.cpp
-brickFactory.h
-/home/umi/Documents/Crazy_Breakout/InGame/brickFactory.h
-
 /home/umi/Documents/Crazy_Breakout/InGame/brickFactory.h
 brick.h
 /home/umi/Documents/Crazy_Breakout/InGame/brick.h
-
-/home/umi/Documents/Crazy_Breakout/InGame/gameBall.cpp
-gameBall.h
-/home/umi/Documents/Crazy_Breakout/InGame/gameBall.h
 
 /home/umi/Documents/Crazy_Breakout/InGame/gameBall.h
 SFML/Graphics.hpp
@@ -33,10 +21,6 @@ gameBar.h
 /home/umi/Documents/Crazy_Breakout/InGame/gameBar.h
 math.h
 /home/umi/Documents/Crazy_Breakout/InGame/math.h
-
-/home/umi/Documents/Crazy_Breakout/InGame/gameBar.cpp
-gameBar.h
-/home/umi/Documents/Crazy_Breakout/InGame/gameBar.h
 
 /home/umi/Documents/Crazy_Breakout/InGame/gameBar.h
 SFML/Graphics.hpp
@@ -65,30 +49,4 @@ gameBall.h
 /home/umi/Documents/Crazy_Breakout/InGame/gameBall.h
 brick.h
 /home/umi/Documents/Crazy_Breakout/InGame/brick.h
-
-/home/umi/Documents/Crazy_Breakout/Server.h
-sys/socket.h
--
-sys/types.h
--
-netdb.h
--
-string.h
--
-string
--
-iostream
--
-pthread.h
--
-vector
--
-unistd.h
--
-
-/home/umi/Documents/Crazy_Breakout/main.cpp
-Server.h
-/home/umi/Documents/Crazy_Breakout/Server.h
-InGame/screen.h
-/home/umi/Documents/Crazy_Breakout/InGame/screen.h
 

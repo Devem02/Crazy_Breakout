@@ -1,6 +1,9 @@
-//
-// Created by umi on 18/9/21.
-//
+/**
+* @file Server.h
+* @version 1.0
+* @date 18/09/2021
+* @title Server
+*/
 
 #ifndef CRAZY_BREAKOUT_SERVER_H
 #define CRAZY_BREAKOUT_SERVER_H
