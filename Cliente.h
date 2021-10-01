@@ -1,6 +1,9 @@
-//
-// Created by umi on 18/9/21.
-//
+/**
+* @file Cliente.h
+* @version 1.0
+* @date 18/09/2021
+* @title Cliente
+*/
 
 #ifndef CRAZY_BREAKOUT_CLIENTE_H
 #define CRAZY_BREAKOUT_CLIENTE_H
