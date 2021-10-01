@@ -1,6 +1,9 @@
-//
-// Created by Diego on 24/09/2021.
-//
+/**
+* @file gameBar.h
+* @version 1.0
+* @date 21/09/2021
+* @title Objeto de la Barra de juego
+*/
 
 #ifndef CRAZY_BREAKOUT_GAMEBAR_H
 #define CRAZY_BREAKOUT_GAMEBAR_H
@@ -9,6 +12,8 @@
 
 
 using namespace sf;
+
+//Clase de la Barra de juego
 class gameBar {
 
 public:
