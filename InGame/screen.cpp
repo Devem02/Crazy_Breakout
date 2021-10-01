@@ -38,13 +38,13 @@ void screen::startPoints() {
 
 void screen::createBricks() {
     int counter = 0;
-    float X = 40;
+    float X = 80;
     float Y = 0;
     for (auto & b : brick) {
         int rand_block = 1 + (rand() % 6);
         X += 50;
         if (counter % 15 == 0) {
-            X = 40;
+            X = 80;
             Y += 50;
         }
         if (rand_block == 1) {
@@ -66,18 +66,12 @@ void screen::createBricks() {
     }
 }
 void screen::special() {
-    int random = 1 + (rand() % 4);
+    int random = 1 + (rand() % 2);
     if (random == 1){
         ball->speed = 7.5f;
     }
     else if(random == 2){
         ball->speed = 2.4f;
-    }
-    else if (random == 3){
-        bar.getPlayer().setSize(Vector2f(200, 10));
-    }
-    else{
-        bar.getPlayer().setSize(Vector2f(50, 10));
     }
 }
 void screen::failBall() {
