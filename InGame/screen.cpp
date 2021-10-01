@@ -169,7 +169,7 @@ void screen::update() {
     updateK();
     failBall();
     updateBrick();
-    updateBall();
+    //updateBall();
     getLives();
 }
 void screen::generate() {

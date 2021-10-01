@@ -11,7 +11,6 @@ Brick::Brick(int posX, int posY, int points, int hp, bool internal, bool deep, b
     this->hp = hp;
     this->internal = internal;
     this->deep = deep;
-    this->surprise = surprise;
     this->alive = true;
 }
 
@@ -40,7 +39,7 @@ bool Brick::getDeep() const {
 }
 
 bool Brick::getSurprise() const {
-    return this->surprise;
+    return surprise;
 }
 
 void Brick::destroyed() {
