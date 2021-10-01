@@ -13,13 +13,13 @@ void * serverRun(void *){
 
 int main() {
 
-    //screen* game = new screen();
+    screen* game = new screen();
 
-    //while(game->isRunning()){
-      //  game->update();
-    //    game->generate();
-  //  }
-//    delete game;
+    while(game->isRunning()){
+        game->update();
+        game->generate();
+    }
+    delete game;
 
 
 

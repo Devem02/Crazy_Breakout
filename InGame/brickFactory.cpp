@@ -7,12 +7,12 @@
 
 using namespace sf;
 void brickFactory::drawBlock(Brick *brick, sf::Color base, sf::Color board) {
-    brick->brick.setSize(Vector2f(40.f, 20.f));
-    brick->brick.setOrigin(20.f, 20.f);
-    brick->brick.setPosition(brick->getPosX(), brick->getPosY());
-    brick->brick.setFillColor(base);
-    brick->brick.setOutlineColor(board);
-    brick->brick.setOutlineThickness(2.f);
+    brick->brickShape.setSize(Vector2f(40.f, 20.f));
+    brick->brickShape.setOrigin(20.f, 20.f);
+    brick->brickShape.setPosition(brick->getPosX(), brick->getPosY());
+    brick->brickShape.setFillColor(base);
+    brick->brickShape.setOutlineColor(board);
+    brick->brickShape.setOutlineThickness(2.f);
 
 }
 
