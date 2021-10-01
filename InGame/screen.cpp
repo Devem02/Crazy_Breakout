@@ -68,7 +68,7 @@ void screen::createBricks() {
 void screen::special() {
     int random = 1 + (rand() % 4);
     if (random == 1){
-        ball->speed = 9.9f;
+        ball->speed = 7.5f;
     }
     else if(random == 2){
         ball->speed = 2.4f;
@@ -114,6 +114,7 @@ void screen::updateBall() {
     if (ball->ball().getPosition().y >=550 - ball->ball().getRadius()){
         failBall();
         ball->ballMovement(bar.getPlayer().getPosition().x, bar.getPlayer().getPosition().y);
+        ball->reset(bar.getPlayer().getPosition().x, bar.getPlayer().getPosition().y);
     }
     ball->ballMovement(bar.getPlayer().getPosition().x, bar.getPlayer().getPosition().y);
 }
