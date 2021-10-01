@@ -81,7 +81,11 @@ void screen::special() {
     }
 }
 void screen::failBall() {
-    lives --;
+    if (ball->ball().getPosition().y > 550){
+        ball->reset(bar.getPlayer().getPosition().x, bar.getPlayer().getPosition().y);
+        lives --;
+    }
+
 }
 bool screen::isRunning() {
     return window1->isOpen();
@@ -121,17 +125,14 @@ void screen::updateBall() {
 void screen::updateBrick() {
     for (Brick* b : brick) {
         if (this->ball->ball().getGlobalBounds().intersects(b->brickShape.getGlobalBounds())) {
-            if (b->getDeep()) {
-                ball->deepValue++;
-                ball->init(false);
-            }
-            else if (b->getSurprise()) {
+            if (b->getSurprise()) {
                 special();
+                b->destroyed();
                 ball->init(false);
             }
             else {
                 if (b->alive) {
-                    if (b->getInternal() && ball->deepValue > 0) {
+                    if (b->getInternal()) {
                         ball->deepValue==0;
                         updatePoints(b->getPoints());
                         b->brickShape.setFillColor(Color::Transparent);
@@ -166,6 +167,7 @@ void screen::getLives() {
 void screen::update() {
     event();
     updateK();
+    failBall();
     updateBrick();
     updateBall();
     getLives();
