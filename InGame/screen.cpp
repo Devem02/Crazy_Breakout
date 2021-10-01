@@ -7,7 +7,7 @@
 screen::screen()
 {
     fps = 60;
-    window1 = new RenderWindow(VideoMode(800, 600), "Crazy Breakouts", Style::Close | Style::Titlebar);
+    window1 = new RenderWindow(VideoMode(100, 650), "Crazy Breakouts", Style::Close | Style::Titlebar);
     window1->setFramerateLimit(fps);
 
     ball = new gameBall(bar.getPlayer().getPosition().x, bar.getPlayer().getPosition().y, 5.f);
@@ -61,9 +61,6 @@ void screen::createBricks() {
             b = brickFactory::tripleBrick(X, Y);
         }
         else if (rand_block == 4){
-            b = brickFactory::deepBrick(X, Y);
-        }
-        else if (rand_block == 5){
             b = brickFactory::internalBrick(X, Y);
         }
         else {
@@ -132,6 +129,7 @@ void screen::updateBrick() {
                 ball->init(false);
             }
             else if (b->getSurprise()) {
+                special();
                 ball->init(false);
             }
             else {
