@@ -27,13 +27,9 @@ screen::~screen() {
 }
 
 void screen::startPoints() {
-    gamePoints.setPosition(0,0);
+    gamePoints.setPosition(0,500);
     gamePoints.setFillColor(Color::White);
     gamePoints.setString("Puntos: "+ std::to_string(currentPoints));
-
-    deep.setPosition(360, 0);
-    deep.setFillColor(Color::White);
-    deep.setString("Profundidad "+ std::to_string(ball->deepValue));
 
     gameover.setPosition(800.f/4, 600.f/4);
     gameover.setFillColor(Color::White);
@@ -70,12 +66,12 @@ void screen::createBricks() {
     }
 }
 void screen::special() {
-    int random = 1 + (rand() % 3);
+    int random = 1 + (rand() % 4);
     if (random == 1){
-        ball->speed = ball->speed * 0.5;
+        ball->speed = 9.9f;
     }
     else if(random == 2){
-        ball->speed = ball->speed / 0.5;
+        ball->speed = 2.4f;
     }
     else if (random == 3){
         bar.getPlayer().setSize(Vector2f(200, 10));
@@ -115,7 +111,7 @@ void screen::updateBall() {
     if(ball->ball().getGlobalBounds().intersects(bar.getPlayer().getGlobalBounds())){
         ball->init(true);
     }
-    if (ball->ball().getPosition().y >= 600 - ball->ball().getRadius()){
+    if (ball->ball().getPosition().y >=550 - ball->ball().getRadius()){
         failBall();
         ball->ballMovement(bar.getPlayer().getPosition().x, bar.getPlayer().getPosition().y);
     }
