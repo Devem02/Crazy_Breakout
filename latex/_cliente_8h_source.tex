@@ -1,0 +1,34 @@
+\hypertarget{_cliente_8h_source}{}\doxysection{Cliente.\+h}
+\mbox{\hyperlink{_cliente_8h}{Ir a la documentación de este archivo.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#ifndef CRAZY\_BREAKOUT\_CLIENTE\_H}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#define CRAZY\_BREAKOUT\_CLIENTE\_H}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <sys/socket.h>}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <sys/types.h>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <netdb.h>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <string.h>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include <pthread.h>}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#include <unistd.h>}}
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#include <arpa/inet.h>}}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24 \textcolor{keyword}{class }\mbox{\hyperlink{class_cliente}{Cliente}}\{}
+\DoxyCodeLine{25 \textcolor{keyword}{public}:}
+\DoxyCodeLine{26     \mbox{\hyperlink{class_cliente_ab6a372f412692c12c4be4427b00a3f6e}{Cliente}}();}
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_cliente_a2fb538e7ac05b2ba79f108fe2994f193}{conectar}}();}
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_cliente_afb63104e18675dffbb767b87bb88aedc}{setMensaje}}(\textcolor{keyword}{const} \textcolor{keywordtype}{char}* msn);}
+\DoxyCodeLine{29 \textcolor{keyword}{private}:}
+\DoxyCodeLine{30     \textcolor{keywordtype}{int} descriptor;}
+\DoxyCodeLine{31     sockaddr\_in info;}
+\DoxyCodeLine{32     \textcolor{keyword}{static} \textcolor{keywordtype}{void}* Controlador(\textcolor{keywordtype}{void}* obj);}
+\DoxyCodeLine{33 \};}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//CRAZY\_BREAKOUT\_CLIENTE\_H}}
+
+\end{DoxyCode}
