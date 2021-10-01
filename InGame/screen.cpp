@@ -27,7 +27,7 @@ screen::~screen() {
 }
 
 void screen::startPoints() {
-    gamePoints.setPosition(0,500);
+    gamePoints.setPosition(10,500);
     gamePoints.setFillColor(Color::White);
     gamePoints.setString("Puntos: "+ std::to_string(currentPoints));
 
@@ -38,13 +38,13 @@ void screen::startPoints() {
 
 void screen::createBricks() {
     int counter = 0;
-    float X = 0;
+    float X = 40;
     float Y = 0;
     for (auto & b : brick) {
         int rand_block = 1 + (rand() % 6);
         X += 50;
         if (counter % 15 == 0) {
-            X = 0;
+            X = 40;
             Y += 50;
         }
         if (rand_block == 1) {
@@ -125,12 +125,6 @@ void screen::updateBall() {
 void screen::updateBrick() {
     for (Brick* b : brick) {
         if (this->ball->ball().getGlobalBounds().intersects(b->brickShape.getGlobalBounds())) {
-            if (b->getSurprise()) {
-                special();
-                b->destroyed();
-                ball->init(false);
-            }
-            else {
                 if (b->alive) {
                     if (b->getInternal()) {
                         ball->deepValue==0;
@@ -142,6 +136,9 @@ void screen::updateBrick() {
                     else {
                         b->hit();
                         if (b->getHp() < 0) {
+                            if (b->getSurprise()){
+                                special();
+                            }
                             b->destroyed();
                             updatePoints(b->getPoints());
                             b->brickShape.setFillColor(Color::Transparent);
@@ -149,7 +146,7 @@ void screen::updateBrick() {
                         }
                         ball->init(false);
                     }
-                }
+
             }
         }
     }
